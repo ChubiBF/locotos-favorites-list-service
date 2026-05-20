@@ -8,6 +8,7 @@ MONGO_URI= aqui url
 MONGO_DB_NAME=StreamingDB_Interaction
 ##
 **INSTALAR Y CORRER**
+####
 pip install -r requirements.txt
 ####
 uvicorn app.main:app --reload --port 3010
