@@ -5,3 +5,5 @@ client = AsyncIOMotorClient(settings.MONGO_URI)
 db = client[settings.MONGO_DB_NAME]
 
 favorites_collection = db["listas_usuario"]
+downloads_collection = db["descargas_usuario"]
+download_tokens_collection = db["download_tokens"]
